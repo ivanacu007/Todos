@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pikafondo"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    >
+    <TextView android:text="@string/pokes"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textAlignment="gravity"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+ />
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="250dp"
+        android:src="@drawable/p001"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/iv1"
+        android:visibility="visible" />
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p001"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv2"
+                android:visibility="visible" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p002"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv3"
+                android:visibility="visible"
+                android:paddingLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p003"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv4"
+                android:visibility="visible"
+                android:paddingLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p004"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv5"
+                android:visibility="visible"
+                android:paddingLeft="15dp"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p005"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv6"
+                android:visibility="visible"
+                android:paddingLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p006"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv7"
+                android:visibility="visible"
+                android:paddingLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p007"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv8"
+                android:visibility="visible"
+                android:paddingLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p008"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv9"
+                android:visibility="visible"
+                android:paddingLeft="15dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/p009"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv10"
+                android:visibility="visible"
+                android:paddingLeft="15dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Set as wallpaper"
+        android:id="@+id/btn1"
+        android:background="#24aea9a9"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

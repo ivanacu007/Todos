@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Todos</string>
+
+    <string name="hola_mundo">Hola Mundo</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="imview">ImageView</string>
+    <string name="menu">Menus</string>
+    <string name="listview">ListView</string>
+    <string name="cerrar">Salir</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    //Checkbox
+    <string name="mensaje">Tu sexo es:</string>
+    <string name="m">Masculino</string>
+    <string name="f">Femenino</string>
+    <string name="enviar">Enviar</string>
+    <string name="ch">CHECKBOX</string>
+    //Imagenes
+    <string name="pokes">Pokedex</string>
+    <string name="hello">Nada</string>
+    //Hola
+    <string name="boton">Enviar</string>
+</resources>
